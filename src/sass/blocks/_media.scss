@@ -30,6 +30,7 @@
     .carousel {
         &__inner {
             width: 550px;
+            height: 425px;
             img {
                 width: 100%;
             }
@@ -158,6 +159,7 @@
     .carousel {
         &__inner {
             width: 500px;
+            height: 386px;
             img {
                 width: 100%;
             }
@@ -318,6 +320,7 @@
     .carousel {
         &__inner {
             width: 270px;
+            height: 209px;
         }
     }
 
@@ -409,7 +412,7 @@
     }
 
     .modal {
-        width: 240px;
+        width: 290px;
         min-height: 300px;
         padding: 25px;
         &__subtitle {
@@ -420,7 +423,9 @@
             margin: 8px;
         }
         &__close {
-            right: -30px;
+            right: 130px;
+            top: auto;
+            bottom: 23px;
         }
         .button_submit {
             font-size: 13px;
@@ -429,11 +434,6 @@
             font-size: 11px;
         }
 
-    }
-
-    .feed-form {
-        width: 190px;
-        margin: 15px auto;
     }
 
 }
